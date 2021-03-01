@@ -1,0 +1,82 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.header{
+	height: 100vh;
+}
+.navbar-style{
+	box-shadow:0 5px 10px #efefef;
+	text-transform: uppercase;
+
+}
+
+
+
+li a{
+	color:#333;
+}
+.navbar-right a{
+	color: white;
+}
+
+
+.text{
+	font-size: 50px;
+	margin:20px 0;
+	color:darkorange;
+	text-shadow: 2px 2px;
+	font-family:  "Times New Roman", Times, serif;
+	
+}
+
+
+a.btn{
+	margin: 30px 10px;
+	width:150px;
+	padding:10px;
+	border-radius: 20px;
+
+}
+a.btn-first{
+	background-color: darkorange;
+	color:#fff;
+}
+a.btn-second{
+	background:transparent;
+	border:1px solid darkorange;
+	color:#333;
+}
+a.btn:hover{
+	background: darkorange;
+	border:none;
+	color:#fff;
+	box-shadow: 5px 5px 10px #999;
+	transition: 0.3s;
+}
+.banner-info, .banner-image{
+	margin: 30px 0;
+}
+body{
+
+
+background-image:url("gwalior.jpg");
+background-size: cover;
+
+}
+
+
+h3{
+	color:black;
+	text-decoration: underline;
+	text-shadow: 2px 2px 5px red;
+
+}
+.item p{
+	color:white;
+	text-transform: uppercase;
+font-family:  "Times New Roman", Times, serif;
+
+text-shadow: 2px 2px 5px red;
+}
+
